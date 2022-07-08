@@ -1,0 +1,9 @@
+DHCP(dynamic host configuration protocol)
+DHCPの割り当て情報
+１：IPアドレスとサブネットマスク
+２：デフォルトゲートウェイ
+３：DNSサーバ
+
+DHCPリレーエージェント
+異なるネットワーク上に配属されたDHCPサーバにDHCPのメッセージを転送するための機能
+(Conf-if)#ip helper 

@@ -1,0 +1,31 @@
+フローラべル
+通信経路の品質確保
+
+MACアドレス
+上位24ビット
+ベンダーコード
+下位24ビット
+製品番号
+
+6B:2A:4B:58:18:9B
+6B
+0110 1011
+0110 1001
+69
+
+コマンド
+IPv6ルーティングの有効化
+(Config)#ipv6 unicast-routing
+グローバルユニキャストアドレスの設定
+(Config)#ipv6 address [アドレス][プレフィックス長]
+(Config)#ipv6 address [サブネットID][EUI-64]
+ステートレスアドレス設定（SLAAC)による設定
+(Config)#ipv6 address autoconfig
+ステートフルアドレス設定（DHCPサーバ）による設定
+(Config)#ipv6 address dhcp
+
+マルチキャスト
+ff
+1111 1111
+
+1フィールド16ビット
